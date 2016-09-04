@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>添加产品</title>
+		<base href="http://localhost:8080/uploadServer/" />
+	</head>
+
+	<body>
+		<h1>产品添加</h1>
+		<form action="productServlet.action" method="post" enctype="multipart/form-data">
+			产品名:<input type="text" name="pname" value="水果" /><br />
+			价格:<input type="text" name="price" value="30" /><br />
+			产品图片一:<input type="file"  name="pic1" /><br />
+			产品图片二:<input type="file" name="pic2" /><br />
+			<input type="submit" value="添加" />
+		</form>
+	</body>
+</html>
